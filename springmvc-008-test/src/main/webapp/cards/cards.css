@@ -1,0 +1,43 @@
+
+h2 {
+    margin-left: 200px;
+}
+
+.inner {
+    border: 0px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 11px;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-td {
+    border: 0px solid black;
+    border-collapse: collapse;
+    font-size: 11px;
+    text-align: center;
+    height: 11px;
+}
+
+.inner-th {
+    font-size: 20px;
+    text-align: center;
+    height: 20px;
+    font-weight: normal;
+}
+
+
+.tbl {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 100px;
+}
+
+.tbl-td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}

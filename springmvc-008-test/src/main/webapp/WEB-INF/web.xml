@@ -34,7 +34,7 @@
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:test_springmvc.xml</param-value>
+      <param-value>classpath:spring-config.xml</param-value>
     </init-param>
   </servlet>
   <servlet-mapping>
@@ -47,6 +47,6 @@
   </listener>
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationContext_*.xml</param-value>
+    <param-value>classpath:spring-config.xml</param-value>
   </context-param>
 </web-app>

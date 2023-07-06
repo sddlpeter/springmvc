@@ -28,13 +28,14 @@ public class UserController {
 
     //user/selectUserPage?userName=z&userSex=男&page=null
     @RequestMapping("/selectUserPage")
-
     public List<User> selectUserPage(String userName,String userSex,Integer page){
         //根据页码计算起始行
         int startRow = 0;
         if(page != null){
             startRow = (page-1) * PAGE_SIZE;
         }
+
+        System.out.println("selectUserPage() method is invoked...");
 
         return userService.selectUserPage(userName,userSex,startRow);
     }

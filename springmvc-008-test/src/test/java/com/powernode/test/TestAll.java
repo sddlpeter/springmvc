@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class) //启动spring容器
-@ContextConfiguration(locations = {"classpath:applicationContext.xml", "classpath:test_applicationContext_service_backup.xml"})
+@ContextConfiguration(locations = {"classpath:spring-config.xml"})
 public class TestAll {
 
     @Autowired

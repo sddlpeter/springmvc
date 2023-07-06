@@ -1,19 +1,21 @@
 <%--
   Created by IntelliJ IDEA.
   User: Admin
-  Date: 6/25/2023
-  Time: 6:19 PM
+  Date: 7/6/2023
+  Time: 3:16 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Index</title>
+    <title>Main</title>
 </head>
 <body>
-<h2>index page</h2>
 
-<a href="${pageContext.request.contextPath}/user.do">user action</a>
+<h2>Main page</h2>
 
+<br>
+<br>
+<h3>welcome to main page</h3>
 </body>
 </html>
